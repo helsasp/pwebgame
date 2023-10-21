@@ -1,0 +1,197 @@
+#bodygame{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgb(255, 211, 16);
+    background-image: url('starbg.jpg'); 
+    
+    
+}
+
+#title {
+    border-style: hidden;
+    background-color: rgb(255, 255, 255);
+    display: inline-block; 
+    font-size: 35px;
+}
+
+#divide {
+    
+    margin: 0;
+    display: flex;
+    
+}
+
+#left-column, #right-column {
+    flex: 1;
+    
+    
+}
+
+
+
+#canvas {
+    background-image: url('bluesky.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+
+    
+} 
+
+#welcome {
+
+    text-align: center;
+    color : rgb(255, 187, 0);
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top : 50px;
+   
+
+}
+
+#cover {
+    background-image: url('star.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    
+}
+
+
+#intro {
+    font-size: 22px;
+    text-align: center;
+    font-family :Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    color: #ffffff;
+    
+    
+}
+
+#how {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    color: rgb(255, 255, 105);
+    font-family: 'Times New Roman', Times, serif;
+   
+
+}
+
+.rules {
+    
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: solid;
+    margin: 30px auto; 
+    max-width: 800px;
+    padding: 10px;
+    color: #ffffff;
+
+
+}
+
+
+li {
+    margin-bottom: 10px; 
+}
+
+#button {
+    
+    width: 200px; 
+  height: 50px; 
+  font-size: 18px;
+  margin-left : 650px;
+  color : rgb(56, 6, 255);
+  background-color: white;
+  font-family: 'Courier New', Courier, monospace;
+  border-color: blue;
+  border-radius: 50px;
+  border-style :groove;
+
+   
+}
+
+.score {
+    font-size: 100px;
+    color: aliceblue;
+}
+
+#gameinfo {
+    font-size: 35px;
+    font-style: bold;
+    font-family:'Courier New', Courier, monospace;
+    color :rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background :#000000;
+    background-clip: padding-box;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    
+
+}
+
+#score {
+    font-size: 25px;
+    font-style: bold;
+    font-family: cursive;
+    color :rgb(255, 179, 0);
+    border: 2px solid rgb(252, 255, 103);
+    border-radius: 30px;
+    margin-top: 0px;
+    display: inline-block;
+    padding: 10px 20px;
+    background :#ffffff;
+    background-clip: padding-box;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+#level, #timer, #highscore {
+    font-size: 25px;
+    font-style: bold;
+    font-family: cursive;
+    color :rgb(255, 179, 0);
+    border: 2px solid rgb(252, 255, 103);
+    border-radius: 30px;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background :#ffffff;
+    background-clip: padding-box;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+#restartButton, #pauseButton {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    border: 2px solid #000;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background : white;
+    background-clip: padding-box;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+
+}
+
+ #pauseButton:hover,  #restartButton:hover , #button:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+

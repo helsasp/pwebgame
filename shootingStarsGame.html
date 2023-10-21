@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooting Stars Game</title>
+
+    <link rel="stylesheet" href ="shootingStars.css">
+    <script src = "shootingStars.js"> </script>
+    
+
+</head>
+<body id ="bodygame">
+
+    <h1 id="title">✨ Shooting Stars ✨</h1>
+
+
+
+    <div id = "divide">
+
+        <div id="left-column">
+
+            <div id="info">
+                <p id="gameinfo">Game Menu 📑</p>
+                <div id="score"></div>
+                <div id="level"></div>
+                <div id="timer"></div>
+                <div id="highscore">🆙 Highscore : 0</div>
+                <div> <button id="pauseButton" onclick="togglePause()">▶ Pause</button> </div>
+                <button id="restartButton" onclick="restartGame()">🎮 Restart Game</button>
+
+
+               
+            </div>
+        </div>
+        
+       
+    
+        <div id="right-column">
+            <canvas id="canvas"></canvas>
+            <audio id="fireSound" src="fire.mp3"></audio>
+        </div>
+
+    </div>
+    
+
+</body>
+</html>
